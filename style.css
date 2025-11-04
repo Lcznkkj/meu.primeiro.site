@@ -1,5 +1,166 @@
-.Problemas {
-    margin:0;
-    margin-top: 80px;
-    align-items: end;
+/* === RESET BÁSICO === */
+/* Remove margens e espaçamentos padrões dos navegadores */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define fonte e cor de fundo padrão */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f8f3;
+}
+
+/* === CABEÇALHO === */
+header {
+    background: linear-gradient(90deg, #2e8b57, #3cb371);
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+}
+
+/* === SEÇÃO INTRODUTÓRIA === */
+.introducao {
+    text-align: center;
+    padding: 2rem;
+}
+
+.imagem {
+    max-width: 100%;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.introducao h2 {
+    color: #2e8b57;
+    margin-bottom: 1rem;
+}
+
+.introducao p {
+    max-width: 800px;
+    margin: 0.5rem auto;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+/* Centraliza o vídeo e deixa responsivo */
+.video {
+    margin: 2rem auto;
+}
+
+.video iframe {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+/* === METAS === */
+.metas {
+    background-color: #eaf4ea;
+    padding: 2rem;
+}
+
+.metas h2 {
+    display: flex;
+    align-items: center;
+    color: #2e8b57;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.metas ul {
+    list-style: none;
+    margin-left: 1rem;
+}
+
+.metas li {
+    background-color: #ffffff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.metas h3 {
+    color: #2e8b57;
+}
+
+/* === PROBLEMAS === */
+.problemas {
+    background-color: #f0f9f0;
+    padding: 2rem;
+}
+
+.problemas h2 {
+    display: flex;
+    align-items: center;
+    color: #228b22;
+    margin-bottom: 1rem;
+}
+
+.problemas ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+}
+
+.problemas li {
+    margin: 0.5rem 0;
+    font-weight: 500;
+}
+
+/* === CONTRIBUIÇÃO === */
+.contribuicao {
+    background-color: #e7f4e7;
+    padding: 2rem;
+}
+
+.contribuicao h2 {
+    display: flex;
+    align-items: center;
+    color: #006400;
+    margin-bottom: 1rem;
+}
+
+.contribuicao ul {
+    list-style-type: square;
+    margin-left: 2rem;
+}
+
+.contribuicao li {
+    margin: 0.5rem 0;
+}
+
+/* === RODAPÉ === */
+footer {
+    text-align: center;
+    background-color: #2e8b57;
+    color: white;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+/* === RESPONSIVIDADE === */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .introducao p {
+        font-size: 1rem;
+    }
+
+    iframe {
+        width: 100%;
+        height: auto;
+    }
 }

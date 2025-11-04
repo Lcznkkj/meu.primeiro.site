@@ -1,51 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>A VIDA TERRESTRE</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
+<html lang="pt-BR"> <!-- Define o idioma da página -->
+<head>
+    <meta charset="UTF-8"> <!-- Define o padrão de caracteres -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Torna o site responsivo -->
+    <title>A VIDA TERRESTRE</title> <!-- Título da aba do navegador -->
+    <link rel="stylesheet" href="style.css"> <!-- Conexão com o arquivo CSS externo -->
+</head>
 
-    <body>
-        
-            <h1>A VIDA TERRESTRE</h1>
-            <p>Sobre a vida terrestre</p>
-            <img src="international-day-biodiversity-world-wildlife-600nw-2461785381.webp" width="1890px">
-            <h1>ODS #15 vida sobre a terra</h1>
-            <p>A vida terrestre engloba todas as formas de vida que habitam a superfície da Terra, como plantas, animais, micro-organismos e seres humanos. Esses seres vivem em diversos ecossistemas, como florestas, desertos, montanhas e campos</p>
-            <p>Ela é essencial para o equilíbrio do planeta, pois regula o clima, purifica o ar, mantém os solos férteis, conserva a água e abriga a biodiversidade. No entanto, enfrenta várias ameaças, como o desmatamento, a poluição, as mudanças climáticas e a destruição de habitats naturais.</p>
-            <p>Proteger a vida terrestre é um dos Objetivos de Desenvolvimento Sustentável da ONU (ODS 15), que busca conservar os ecossistemas, restaurar áreas degradadas e promover o uso sustentável dos recursos naturais.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/HDg6mmffObA?si=aLLRI9-58s2pbBI7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <h1> <img width="90" src="habitat.png" alt=""> Metas </h1>
-            <h2>Conservar e restaurar ecossistemas terrestres e de água doce:</h2>
-            <p>Garantir a conservação, recuperação e uso sustentável dos ecossistemas até 2020, especialmente florestas, pântanos, montanhas e zonas áridas</p>
-            <h2>Gerenciamento sustentável das florestas:</h2>
-            <p>Promover o manejo sustentável de todos os tipos de florestas, restaurar áreas degradadas e aumentar o reflorestamento globalmente.</p>
-            <h2>Combater a desertificação e restaurar terras degradadas:</h2>
-            <p>Lutar contra a desertificação e restaurar terras afetadas pela degradação e secas.</p>
-            <h2>Combater a desertificação e restaurar terras degradadas:</h2>
-            <p>Lutar contra a desertificação e restaurar terras afetadas pela degradação e secas.</p>
-            <h2>Conservação de ecossistemas montanhosos:</h2>
-            <p>Assegurar a conservação dos ecossistemas de montanha, incluindo sua biodiversidade.</p>
-            <h2>Reduzir a degradação dos habitats naturais:</h2>
-            <p>Tomar medidas urgentes para reduzir a degradação dos habitats naturais, frear a perda de biodiversidade e proteger espécies ameaçadas.</p>
+<body>
+    <!-- Cabeçalho principal -->
+    <header>
+        <h1>A VIDA TERRESTRE</h1> <!-- Título central da página -->
+    </header>
 
-            <div class="Problemas">  
-                <h2> <img width="90" src="growth (1).png" alt=""> Problemas que o ODS 15 combate </h2>
-                <p>Desmatamento</p>
-                <p>Perda de biodiversidade</p>
-                <p>Degradação do solo</p>
-                <p>Caça e tráfico de animais silvestres</p>
-                <p>Extinção de espécies</p>
-                <p>Mudanças climáticas que afetam ecossistemas</p>
-            </div>
+    <!-- Seção introdutória -->
+    <section class="introducao">
+        <figure> <!-- Tag semântica para imagem -->
+            <img src="04.png" alt="Imagem representando a vida terrestre" class="imagem">
+        </figure>
 
+        <h2>ODS #15 – Vida sobre a Terra</h2> <!-- Subtítulo da seção -->
+        <p>A vida terrestre engloba todas as formas de vida que habitam a superfície da Terra, como plantas, animais, micro-organismos e seres humanos. Esses seres vivem em diversos ecossistemas, como florestas, desertos, montanhas e campos.</p>
 
+        <p>Ela é essencial para o equilíbrio do planeta, pois regula o clima, purifica o ar, mantém os solos férteis, conserva a água e abriga a biodiversidade. No entanto, enfrenta várias ameaças, como o desmatamento, a poluição, as mudanças climáticas e a destruição de habitats naturais.</p>
 
+        <p>Proteger a vida terrestre é um dos Objetivos de Desenvolvimento Sustentável da ONU (ODS 15), que busca conservar os ecossistemas, restaurar áreas degradadas e promover o uso sustentável dos recursos naturais.</p>
 
+        <!-- Vídeo incorporado -->
+        <div class="video">
+            <iframe 
+                width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/HDg6mmffObA?si=BoRY3MazUUEwOXYX"
+                title="Vídeo sobre o ODS 15"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin"
+                allowfullscreen>
+            </iframe>
+        </div>
+    </section>
 
+    <!-- Seção de metas -->
+    <section class="metas">
+        <h2><img width="90" src="habitat.png" alt="Ícone de ecossistema"> Metas</h2>
+        <ul>
+            <li>
+                <h3>Conservar e restaurar ecossistemas terrestres e de água doce:</h3>
+                <p>Garantir a conservação, recuperação e uso sustentável dos ecossistemas até 2020, especialmente florestas, pântanos, montanhas e zonas áridas.</p>
+            </li>
 
-    </body>
+            <li>
+                <h3>Gerenciamento sustentável das florestas:</h3>
+                <p>Promover o manejo sustentável de todos os tipos de florestas, restaurar áreas degradadas e aumentar o reflorestamento globalmente.</p>
+            </li>
 
+            <li>
+                <h3>Combater a desertificação e restaurar terras degradadas:</h3>
+                <p>Lutar contra a desertificação e restaurar terras afetadas pela degradação e secas.</p>
+            </li>
+
+            <li>
+                <h3>Conservação de ecossistemas montanhosos:</h3>
+                <p>Assegurar a conservação dos ecossistemas de montanha, incluindo sua biodiversidade.</p>
+            </li>
+
+            <li>
+                <h3>Reduzir a degradação dos habitats naturais:</h3>
+                <p>Tomar medidas urgentes para reduzir a degradação dos habitats naturais, frear a perda de biodiversidade e proteger espécies ameaçadas.</p>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Seção de problemas -->
+    <section class="problemas">
+        <h2><img width="90" src="growth (1).png" alt="Ícone de gráfico de crescimento"> Problemas que o ODS 15 combate</h2>
+        <ul>
+            <li>Desmatamento</li>
+            <li>Perda de biodiversidade</li>
+            <li>Degradação do solo</li>
+            <li>Caça e tráfico de animais silvestres</li>
+            <li>Extinção de espécies</li>
+            <li>Mudanças climáticas que afetam ecossistemas</li>
+        </ul>
+    </section>
+
+    <!-- Seção de contribuição -->
+    <section class="contribuicao">
+        <h2><img width="90" src="nature.png" alt="Ícone de natureza"> Como contribuir</h2>
+        <ul>
+            <li>Apoiar o reflorestamento e consumo consciente.</li>
+            <li>Evitar produtos que causem desmatamento (como madeira ilegal).</li>
+            <li>Proteger áreas verdes e espécies nativas.</li>
+            <li>Educar e conscientizar sobre preservação ambiental.</li>
+        </ul>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Página educativa sobre o ODS 15 | MEU PRIMEIRO SITE</p>
+    </footer>
+</body>
 </html>
